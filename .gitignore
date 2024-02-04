@@ -1,0 +1,11 @@
+/flask/.pytest_cache
+/flask/__pycache__
+/flask/app/__pycache__
+/flask/tests/__pycache__
+/flask/tests/coverage/.coverage
+/flask/venv
+/flask/logs
+/.vscode
+.env
+# .env  removed for docker config directives
+

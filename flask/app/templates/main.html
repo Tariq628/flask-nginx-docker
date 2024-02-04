@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Flask App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">Simple Flask App</div>
+        <div class="content">
+            <p>Enter the Data to be Reversed:</p>
+            <form action="/" method="post">
+                <input type="text" name="data">
+                <input type="submit" value="Submit Data">
+            </form>
+                <p><b>Data Result</b>: <i>{{ data }}</i></p>
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>

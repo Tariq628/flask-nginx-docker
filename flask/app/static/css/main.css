@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark grey background */
+    color: #E0E0E0; /* Light grey text for readability */
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    width: 33.33vw; /* Use 1/3 of the view width */
+    min-height: 100vh; /* Full height of the viewport */
+    margin: 0 auto; /* Center the container */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container div {
+    padding: 10px;
+    margin: 10px 0; /* Spacing between elements */
+    border: 1px solid #333333; /* Slightly lighter grey for borders */
+    background-color: #1E1E1E; /* Slightly lighter grey for the background */
+}
+
+.header, .footer {
+    text-align: center; /* Center text for header and footer */
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px; /* Space between the input and the submit button */
+    background-color: #333333; /* Input background */
+    color: #E0E0E0; /* Input text color */
+    border: none;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4A4A4A; /* Submit button background */
+    color: #E0E0E0; /* Submit button text color */
+    border: none;
+    cursor: pointer;
+}
